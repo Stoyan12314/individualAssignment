@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - First_ASP_NET_CORE</title>
+    <link rel="stylesheet" href="/css/Index.css">
+  
+</head>
+<body>
+    <header>
+
+        <div class="navbar">
+
+            <img id="logo" src="images/FullLogo_Transparent_NoBuffer.png" alt="logo">
+            <input type="text" placeholder="Search for...">
+            <a href="#about">Games</a>
+            <a href="#contact">Home</a>
+
+        </div>
+
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - First_ASP_NET_CORE - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
