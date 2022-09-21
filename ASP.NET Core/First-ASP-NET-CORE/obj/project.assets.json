@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\First-ASP-NET-CORE\\First-ASP-NET-CORE\\First-ASP-NET-CORE.csproj",
+      "projectUniqueName": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\First-ASP-NET-CORE\\First-ASP-NET-CORE.csproj",
       "projectName": "First-ASP-NET-CORE",
-      "projectPath": "D:\\Visual Studio\\First-ASP-NET-CORE\\First-ASP-NET-CORE\\First-ASP-NET-CORE.csproj",
+      "projectPath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\First-ASP-NET-CORE\\First-ASP-NET-CORE.csproj",
       "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\First-ASP-NET-CORE\\First-ASP-NET-CORE\\obj\\",
+      "outputPath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\First-ASP-NET-CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stoyan\\AppData\\Roaming\\NuGet\\NuGet.Config",

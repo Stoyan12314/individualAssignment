@@ -1,13 +1,14 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Landing page";
 }
 <link rel="stylesheet" href="/css/Index.css">
 <div class="text-center">
     <div class="flex-container">
     
             <div class="description">
+
                 <h1>Welcome to GameWatch</h1>
     
                 <p>Browse our large collection of <br>
@@ -16,22 +17,29 @@
                     Enjoy your stay here! </p>
     
             </div>
+
             <div class="SignUp">
-                <fieldset>
-                    <legend>SIGN UP</legend>
+                <form method="POST">
+
+                    <fieldset>
+                        <legend>SIGN UP</legend>
     
-                    <div class="inputField">
-                        <h4>Email</h4>
-                        <input type="text">
-                        <h4>Password</h4>
-                        <input type="text">
+                        <div class="inputField">
+                            <h4>Email</h4>
+                            <input type="text">
+                            <h4>Password</h4>
+                            <input type="text" @*asp-for=""*@>
                        
-                    </div>
-                    <input id="Continue" type="button" value="Continue">
-                
+                        </div>
+                        <input id="Continue" type="submit" value="Continue">
                         <h5 id="Question">Already a user?</h5>
-                        <input id="Login" type="button" value="Login">
-                </fieldset>
+                       
+                        <input  asp-page="/Login" id="Login" type="submit" value="Login">
+
+                    </fieldset>
+
+                </form>
+               
     
             </div>
     

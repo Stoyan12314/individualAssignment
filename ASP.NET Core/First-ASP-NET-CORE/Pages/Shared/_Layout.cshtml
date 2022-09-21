@@ -14,8 +14,9 @@
 
             <img id="logo" src="images/FullLogo_Transparent_NoBuffer.png" alt="logo">
             <input type="text" placeholder="Search for...">
-            <a href="#about">Games</a>
-            <a href="#contact">Home</a>
+            <a asp-page="/Games">Games</a>
+            <a asp-page="/Home">Home</a>
+            <a asp-page="/Login">Login</a>
 
         </div>
 
@@ -27,11 +28,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - First_ASP_NET_CORE - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+    
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

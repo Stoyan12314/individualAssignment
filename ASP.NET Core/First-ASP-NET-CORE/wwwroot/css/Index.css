@@ -3,7 +3,8 @@
 }
 
 .navbar {
-    position: flex;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: left;
     align-items: center;

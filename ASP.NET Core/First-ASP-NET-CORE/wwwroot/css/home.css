@@ -1,0 +1,75 @@
+﻿body {
+    background-color: #FFC800;
+}
+
+.navbar {
+    position: flex;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FF8427;
+}
+
+    .navbar #logo {
+        margin-top: 6px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 140px;
+    }
+
+    .navbar a {
+        margin-right: 50px;
+        float: right;
+        color: #ffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .navbar a:hover {
+            background-color: #4D8B31;
+            border-radius: 30px;
+            transition-duration: 2s;
+        }
+
+
+
+    .navbar input[type=text] {
+        /* 
+    position: absolute;
+   
+   */
+        margin-left: 30px;
+        margin-right: 30px;
+        top: 9px;
+        padding: 6px;
+        border: none;
+        font-size: 17px;
+        text-align: left;
+    }
+
+
+
+body #WelcomeText {
+    font-size: 40px;
+    text-align: center;
+    font-family: verdana
+}
+
+
+
+body .flex-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+    body .flex-container .flex-items {
+        flex-direction: row;
+    }
+
+        body .flex-container .flex-items img {
+            width: 300px;
+        }

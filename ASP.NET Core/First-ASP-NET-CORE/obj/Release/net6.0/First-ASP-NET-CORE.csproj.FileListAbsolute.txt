@@ -1,0 +1,52 @@
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\appsettings.Development.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\appsettings.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.staticwebassets.runtime.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.exe
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.deps.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.runtimeconfig.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.pdb
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.RazorAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.RazorAssemblyInfo.cs
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\scopedcss\bundle\First-ASP-NET-CORE.styles.css
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\scopedcss\projectbundle\First-ASP-NET-CORE.bundle.scp.css
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\refint\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.pdb
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.genruntimeconfig.cache
+C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\ref\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\appsettings.Development.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\appsettings.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.staticwebassets.runtime.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.exe
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.deps.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.runtimeconfig.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.RazorAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.RazorAssemblyInfo.cs
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\scopedcss\bundle\First-ASP-NET-CORE.styles.css
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\scopedcss\projectbundle\First-ASP-NET-CORE.bundle.scp.css
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\refint\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.genruntimeconfig.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\ref\First-ASP-NET-CORE.dll

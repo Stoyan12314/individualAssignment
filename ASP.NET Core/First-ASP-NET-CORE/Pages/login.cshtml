@@ -1,0 +1,30 @@
+﻿@page
+@model loginModel
+@{
+	ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="/css/Login.css">
+<div class="login-container">
+                <div class="Login">
+                    <form method="post">
+
+                         <fieldset>
+                        <legend>LOGIN</legend>
+        
+                        <div class="inputField">
+                            <h4>Email</h4>
+                            <input type="text">
+                            <h4>Password</h4>
+                            <input type="text"  asp-for="username">
+                        </div>
+                        <input id="Continue" type="submit" value="Continue">
+                            <h5 id="Question">Don't have an account?</h5>
+                            <input  asp-page="/Index" id="SignUpp" type="submit" value="SignUp">  
+                        </fieldset>
+
+
+
+                    </form>
+                   
+                </div>
+            </div>

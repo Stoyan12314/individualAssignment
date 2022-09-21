@@ -1,0 +1,8 @@
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.RazorAssemblyInfo.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Debug\net6.0-windows\First-ASP-NET-CORE.RazorAssemblyInfo.cs

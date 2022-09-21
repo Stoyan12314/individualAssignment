@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = First_ASP_NET_CORE
+build_property.RootNamespace = First_ASP_NET_CORE
+build_property.ProjectDir = C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Games.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/reviewPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmV2aWV3UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Stoyan/Desktop/individual ass/ASP.NET Core/First-ASP-NET-CORE/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9lg0n98ksp
