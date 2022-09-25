@@ -1,0 +1,13 @@
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb

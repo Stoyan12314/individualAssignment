@@ -24,8 +24,6 @@ C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\
 C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.pdb
 C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.genruntimeconfig.cache
 C:\Users\Stoyan\Desktop\MMMMMMMMMMMMMMMMMMMMMMM\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\ref\First-ASP-NET-CORE.dll
-C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\appsettings.Development.json
-C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\appsettings.json
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.staticwebassets.runtime.json
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.exe
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\First-ASP-NET-CORE.deps.json
@@ -50,3 +48,5 @@ C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Relea
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.pdb
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.genruntimeconfig.cache
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\ref\First-ASP-NET-CORE.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\Pages\appsettings.Development.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\Pages\appsettings.json

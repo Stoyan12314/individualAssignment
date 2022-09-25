@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    public class Manager
+    public class ReviewerManager
     {
     }
 }

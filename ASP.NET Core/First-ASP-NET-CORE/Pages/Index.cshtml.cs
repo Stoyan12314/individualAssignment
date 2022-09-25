@@ -6,7 +6,7 @@ namespace First_ASP_NET_CORE.Pages
     public class IndexModel : PageModel
     { 
         
-        
+        //public Credential 
         private readonly ILogger<IndexModel> _logger;
         
 

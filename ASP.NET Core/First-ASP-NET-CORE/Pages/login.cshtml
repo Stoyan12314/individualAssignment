@@ -11,19 +11,20 @@
                          <fieldset>
                         <legend>LOGIN</legend>
         
-                        <div class="inputField">
-                            <h4>Email</h4>
-                            <input type="text">
-                            <h4>Password</h4>
-                            <input type="text"  asp-for="username">
-                        </div>
-                        <input id="Continue" type="submit" value="Continue">
-                            <h5 id="Question">Don't have an account?</h5>
-                            <input  asp-page="/Index" id="SignUpp" type="submit" value="SignUp">  
+                            <div class="inputField">
+                             
+                                <label asp-for="credential.Email">Email</label>
+                                <input asp-for="credential.Email">
+                                <label asp-for="credential.Password">Password</label>
+                                <input asp-for="credential.Password">
+                             
+                            </div>
+
+                             <span class="text-danger" asp-validation-for="credential.Email"></span>
+                             <input id="Continue" type="submit" value="Continue">
+                             <label id="Question">Don't have an account?</label>
+                             <input  asp-page="/Index" id="SignUpp" type="submit" value="SignUp">  
                         </fieldset>
-
-
-
                     </form>
                    
                 </div>

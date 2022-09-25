@@ -1,5 +1,30 @@
 ﻿@page
 @model AccountModel
-@{
 
+@{
+	ViewData["Title"] = "Account";
 }
+<link rel="stylesheet" href="/css/Account.css">
+  <h1>Account</h1>
+        <div class = "info-container">
+            <fieldset>
+                <h5>created:</h5>
+                <h5>badges:</h5>
+                <h5>written reviews:</h5>
+                <div class="credential-container">
+                    <fieldset>
+                        <h4>New password</h4>
+                        <input type ="text">
+            
+                        <h4>Repeat password</h4>
+                        <input type = "text">
+                
+                        <input id="button" type="button" value="Submit">
+        
+                    </fieldset>
+                  
+                </div>
+            </fieldset>
+
+           
+        </div>

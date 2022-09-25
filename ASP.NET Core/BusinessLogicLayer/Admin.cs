@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer
 {
-    public class Admin: User
+    public class Admin: User, IUserAction
     {
         public Admin(string name, string email, string username, string password) : base( name,  email,  username, password)
         {
@@ -14,11 +14,8 @@ namespace BusinessLogicLayer
         }
 
       
+              
 
-        public override void DeleteReview()
-        {
-            
-        }
 
         public void DeleteReviewer(Reviewer r)
         {
@@ -30,12 +27,17 @@ namespace BusinessLogicLayer
             throw new NotImplementedException();
         }
 
-        public override void UpdateReview()
+        void IUserAction.DeleteReview(Review review)
         {
             throw new NotImplementedException();
         }
 
-        public override void WriteReview()
+        void IUserAction.UpdateReview(Review review)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IUserAction.WriteReview(Review review)
         {
             throw new NotImplementedException();
         }

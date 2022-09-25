@@ -5,7 +5,11 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First-ASP-NET-CORE", "First-ASP-NET-CORE\First-ASP-NET-CORE.csproj", "{205908EC-13A5-487E-B4D0-47049B14B310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{F26AA52C-DF03-4149-8F4E-E6CBB87A10EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{F26AA52C-DF03-4149-8F4E-E6CBB87A10EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROJECT-FORMS", "PROJECT-FORMS\PROJECT-FORMS.csproj", "{29E8E66A-F795-4A07-B819-5648A3C5042E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F26AA52C-DF03-4149-8F4E-E6CBB87A10EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26AA52C-DF03-4149-8F4E-E6CBB87A10EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26AA52C-DF03-4149-8F4E-E6CBB87A10EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E8E66A-F795-4A07-B819-5648A3C5042E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E8E66A-F795-4A07-B819-5648A3C5042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E8E66A-F795-4A07-B819-5648A3C5042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E8E66A-F795-4A07-B819-5648A3C5042E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

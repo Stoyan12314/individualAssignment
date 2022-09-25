@@ -7,6 +7,7 @@ namespace First_ASP_NET_CORE.Pages
     {
         public void OnGet()
         {
+
         }
     }
 }

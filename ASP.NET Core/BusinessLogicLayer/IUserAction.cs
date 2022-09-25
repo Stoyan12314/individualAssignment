@@ -10,7 +10,6 @@ namespace BusinessLogicLayer
     {
         public void WriteReview(Review review);
         public void DeleteReview(Review review);
-
         public void UpdateReview(Review review);
     }
 }

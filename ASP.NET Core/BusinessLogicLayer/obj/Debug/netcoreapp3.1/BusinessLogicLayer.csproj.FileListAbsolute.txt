@@ -1,0 +1,10 @@
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.deps.json
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
