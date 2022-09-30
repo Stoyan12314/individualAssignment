@@ -15,12 +15,19 @@
                              
                                 <label asp-for="credential.Email">Email</label>
                                 <input asp-for="credential.Email">
+
+                                <span class="text-danger" asp-validation-for="credential.Email"></span>
+
+
                                 <label asp-for="credential.Password">Password</label>
                                 <input asp-for="credential.Password">
+
+                                <span class="text-danger" asp-validation-for="credential.Password"></span>
+
                              
                             </div>
 
-                             <span class="text-danger" asp-validation-for="credential.Email"></span>
+                            
                              <input id="Continue" type="submit" value="Continue">
                              <label id="Question">Don't have an account?</label>
                              <input  asp-page="/Index" id="SignUpp" type="submit" value="SignUp">  

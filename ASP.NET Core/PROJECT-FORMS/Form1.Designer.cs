@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.pcBox = new System.Windows.Forms.PictureBox();
-            this.Add = new System.Windows.Forms.Button();
+            this.btnAddImage = new System.Windows.Forms.Button();
             this.tbGameName = new System.Windows.Forms.TextBox();
             this.lbGameName = new System.Windows.Forms.Label();
             this.lbDeveloper = new System.Windows.Forms.Label();
@@ -41,32 +41,36 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.lbReleaseDate = new System.Windows.Forms.Label();
             this.tbDescription = new System.Windows.Forms.TextBox();
-            this.lbDescription = new System.Windows.Forms.Label();
             this.btnCreateGame = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.gbAddImage = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pcBox)).BeginInit();
+            this.gbAddImage.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pcBox
             // 
-            this.pcBox.Location = new System.Drawing.Point(19, 12);
+            this.pcBox.Location = new System.Drawing.Point(31, 26);
             this.pcBox.Name = "pcBox";
             this.pcBox.Size = new System.Drawing.Size(243, 215);
             this.pcBox.TabIndex = 0;
             this.pcBox.TabStop = false;
             // 
-            // Add
+            // btnAddImage
             // 
-            this.Add.Location = new System.Drawing.Point(89, 249);
-            this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(94, 29);
-            this.Add.TabIndex = 2;
-            this.Add.Text = "btnAdd";
-            this.Add.UseVisualStyleBackColor = true;
-            this.Add.Click += new System.EventHandler(this.Add_Click);
+            this.btnAddImage.Location = new System.Drawing.Point(79, 247);
+            this.btnAddImage.Name = "btnAddImage";
+            this.btnAddImage.Size = new System.Drawing.Size(150, 29);
+            this.btnAddImage.TabIndex = 2;
+            this.btnAddImage.Text = "Select image";
+            this.btnAddImage.UseVisualStyleBackColor = true;
+            this.btnAddImage.Click += new System.EventHandler(this.Add_Click);
             // 
             // tbGameName
             // 
-            this.tbGameName.Location = new System.Drawing.Point(582, 31);
+            this.tbGameName.Location = new System.Drawing.Point(600, 16);
             this.tbGameName.Name = "tbGameName";
             this.tbGameName.Size = new System.Drawing.Size(125, 27);
             this.tbGameName.TabIndex = 3;
@@ -74,7 +78,7 @@
             // lbGameName
             // 
             this.lbGameName.AutoSize = true;
-            this.lbGameName.Location = new System.Drawing.Point(318, 31);
+            this.lbGameName.Location = new System.Drawing.Point(335, 23);
             this.lbGameName.Name = "lbGameName";
             this.lbGameName.Size = new System.Drawing.Size(126, 20);
             this.lbGameName.TabIndex = 4;
@@ -83,7 +87,7 @@
             // lbDeveloper
             // 
             this.lbDeveloper.AutoSize = true;
-            this.lbDeveloper.Location = new System.Drawing.Point(318, 71);
+            this.lbDeveloper.Location = new System.Drawing.Point(335, 63);
             this.lbDeveloper.Name = "lbDeveloper";
             this.lbDeveloper.Size = new System.Drawing.Size(114, 20);
             this.lbDeveloper.TabIndex = 6;
@@ -91,7 +95,7 @@
             // 
             // tbDeveloper
             // 
-            this.tbDeveloper.Location = new System.Drawing.Point(582, 71);
+            this.tbDeveloper.Location = new System.Drawing.Point(600, 56);
             this.tbDeveloper.Name = "tbDeveloper";
             this.tbDeveloper.Size = new System.Drawing.Size(125, 27);
             this.tbDeveloper.TabIndex = 5;
@@ -99,7 +103,7 @@
             // lbGenre
             // 
             this.lbGenre.AutoSize = true;
-            this.lbGenre.Location = new System.Drawing.Point(318, 111);
+            this.lbGenre.Location = new System.Drawing.Point(336, 103);
             this.lbGenre.Name = "lbGenre";
             this.lbGenre.Size = new System.Drawing.Size(85, 20);
             this.lbGenre.TabIndex = 8;
@@ -107,7 +111,7 @@
             // 
             // tbGenre
             // 
-            this.tbGenre.Location = new System.Drawing.Point(582, 111);
+            this.tbGenre.Location = new System.Drawing.Point(600, 96);
             this.tbGenre.Name = "tbGenre";
             this.tbGenre.Size = new System.Drawing.Size(125, 27);
             this.tbGenre.TabIndex = 7;
@@ -115,7 +119,7 @@
             // lbHours
             // 
             this.lbHours.AutoSize = true;
-            this.lbHours.Location = new System.Drawing.Point(318, 151);
+            this.lbHours.Location = new System.Drawing.Point(336, 136);
             this.lbHours.Name = "lbHours";
             this.lbHours.Size = new System.Drawing.Size(171, 20);
             this.lbHours.TabIndex = 10;
@@ -123,7 +127,7 @@
             // 
             // tbHours
             // 
-            this.tbHours.Location = new System.Drawing.Point(582, 144);
+            this.tbHours.Location = new System.Drawing.Point(600, 129);
             this.tbHours.Name = "tbHours";
             this.tbHours.Size = new System.Drawing.Size(125, 27);
             this.tbHours.TabIndex = 9;
@@ -138,7 +142,7 @@
             // lbReleaseDate
             // 
             this.lbReleaseDate.AutoSize = true;
-            this.lbReleaseDate.Location = new System.Drawing.Point(318, 187);
+            this.lbReleaseDate.Location = new System.Drawing.Point(336, 189);
             this.lbReleaseDate.Name = "lbReleaseDate";
             this.lbReleaseDate.Size = new System.Drawing.Size(134, 20);
             this.lbReleaseDate.TabIndex = 12;
@@ -146,24 +150,15 @@
             // 
             // tbDescription
             // 
-            this.tbDescription.Location = new System.Drawing.Point(416, 233);
+            this.tbDescription.Location = new System.Drawing.Point(21, 56);
             this.tbDescription.Multiline = true;
             this.tbDescription.Name = "tbDescription";
-            this.tbDescription.Size = new System.Drawing.Size(372, 156);
+            this.tbDescription.Size = new System.Drawing.Size(419, 190);
             this.tbDescription.TabIndex = 13;
-            // 
-            // lbDescription
-            // 
-            this.lbDescription.AutoSize = true;
-            this.lbDescription.Location = new System.Drawing.Point(287, 236);
-            this.lbDescription.Name = "lbDescription";
-            this.lbDescription.Size = new System.Drawing.Size(123, 20);
-            this.lbDescription.TabIndex = 14;
-            this.lbDescription.Text = "Enter Description";
             // 
             // btnCreateGame
             // 
-            this.btnCreateGame.Location = new System.Drawing.Point(349, 427);
+            this.btnCreateGame.Location = new System.Drawing.Point(43, 468);
             this.btnCreateGame.Name = "btnCreateGame";
             this.btnCreateGame.Size = new System.Drawing.Size(114, 29);
             this.btnCreateGame.TabIndex = 15;
@@ -171,14 +166,46 @@
             this.btnCreateGame.UseVisualStyleBackColor = true;
             this.btnCreateGame.Click += new System.EventHandler(this.btnCreateGame_Click);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(172, 468);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(114, 29);
+            this.btnDelete.TabIndex = 16;
+            this.btnDelete.Text = "Delete/Edit game";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // gbAddImage
+            // 
+            this.gbAddImage.Controls.Add(this.pcBox);
+            this.gbAddImage.Controls.Add(this.btnAddImage);
+            this.gbAddImage.Location = new System.Drawing.Point(12, 12);
+            this.gbAddImage.Name = "gbAddImage";
+            this.gbAddImage.Size = new System.Drawing.Size(299, 291);
+            this.gbAddImage.TabIndex = 17;
+            this.gbAddImage.TabStop = false;
+            this.gbAddImage.Text = "Add image";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.tbDescription);
+            this.groupBox1.Location = new System.Drawing.Point(336, 215);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(459, 291);
+            this.groupBox1.TabIndex = 18;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Description";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 615);
+            this.ClientSize = new System.Drawing.Size(804, 509);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnCreateGame);
-            this.Controls.Add(this.lbDescription);
-            this.Controls.Add(this.tbDescription);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbAddImage);
             this.Controls.Add(this.lbReleaseDate);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lbHours);
@@ -189,12 +216,13 @@
             this.Controls.Add(this.tbDeveloper);
             this.Controls.Add(this.lbGameName);
             this.Controls.Add(this.tbGameName);
-            this.Controls.Add(this.Add);
-            this.Controls.Add(this.pcBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcBox)).EndInit();
+            this.gbAddImage.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,7 +231,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pcBox;
-        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Button btnAddImage;
         private System.Windows.Forms.TextBox tbGameName;
         private System.Windows.Forms.Label lbGameName;
         private System.Windows.Forms.Label lbDeveloper;
@@ -215,7 +243,9 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label lbReleaseDate;
         private System.Windows.Forms.TextBox tbDescription;
-        private System.Windows.Forms.Label lbDescription;
         private System.Windows.Forms.Button btnCreateGame;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.GroupBox gbAddImage;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

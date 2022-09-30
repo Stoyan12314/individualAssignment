@@ -8,3 +8,8 @@ C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csproj.CoreCompileInputs.cache
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.dll
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\BusinessLogicLayer\obj\Debug\netcoreapp3.1\BusinessLogicLayer.csproj.CopyComplete

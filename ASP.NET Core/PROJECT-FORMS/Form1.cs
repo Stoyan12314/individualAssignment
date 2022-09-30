@@ -9,16 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
-using DataAccessLayer;
 using BusinessLogicLayer;
+using DataAccessLayer;
+using Entities;
 namespace PROJECT_FORMS
 {
     public partial class Form1 : Form
     {
-        DBgame dbGame = new DBgame();
+        gameManager gameManager;
         public Form1()
         {
             InitializeComponent();
+            gameManager = new gameManager();            
+            this.Text = "Game creation";
         }
 
         private void Add_Click(object sender, EventArgs e)
@@ -28,29 +31,9 @@ namespace PROJECT_FORMS
             OD.Filter = "Supported Images|*.jpg;*.jpeg;*.png";
             if (OD.ShowDialog() == DialogResult.OK)
                 pcBox.Load(OD.FileName);
-
-
-            //SqlConnection con = new SqlConnection(connectionString);
-            //con.Open();
-            //SqlCommand command = con.CreateCommand();
-            //var image = new ImageConverter().ConvertTo(pictureBox1.Image, typeof(Byte[]));
-            //command.Parameters.AddWithValue("@image", image);
-            //command.CommandText = "INSERT INTO ImageTable (image) VALUES(@image)";
-            //if (command.ExecuteNonQuery() > 0)
-            //    MessageBox.Show("Image was added!");
-            //else
-            //    MessageBox.Show("Image was not added!");
-            //con.Close();
         }
 
-        private void btnLoad_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog OD = new OpenFileDialog();
-            OD.FileName = "";
-            OD.Filter = "Supported Images|*.jpg;*.jpeg;*.png";
-            if (OD.ShowDialog() == DialogResult.OK)
-                pcBox.Load(OD.FileName);
-        }
+       
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -61,24 +44,29 @@ namespace PROJECT_FORMS
         {
             try
             {
+                
                 Byte[] image = (byte[])new ImageConverter().ConvertTo(pcBox.Image, typeof(Byte[]));
-              bool c =  dbGame.AddGame(new Game(tbDeveloper.Text, tbGenre.Text, Convert.ToInt32(tbHours.Text), dateTimePicker1.Value.Date, tbGameName.Text, tbDescription.Text), image);
-                if (c) 
+                bool check = gameManager.AddGame(new Game(tbDeveloper.Text, tbGenre.Text, Convert.ToInt32(tbHours.Text), dateTimePicker1.Value.Date, tbGameName.Text, tbDescription.Text, image));
+                if (check) 
                 {
                     MessageBox.Show("Success");
                 }
                 else
                 {
-                    MessageBox.Show("Bruh");
+                    throw new ArgumentException("An error has accured!");
                 }
-            }
-            catch (Exception)
-            {
 
-                throw;
             }
-            //Tuple<Byte[]>
-           
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2(gameManager);
+            form.ShowDialog();
         }
     }
 }

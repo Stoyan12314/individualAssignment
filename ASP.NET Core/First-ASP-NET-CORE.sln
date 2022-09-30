@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First-ASP-NET-CORE", "First
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{F26AA52C-DF03-4149-8F4E-E6CBB87A10EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROJECT-FORMS", "PROJECT-FORMS\PROJECT-FORMS.csproj", "{29E8E66A-F795-4A07-B819-5648A3C5042E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PROJECT-FORMS", "PROJECT-FORMS\PROJECT-FORMS.csproj", "{29E8E66A-F795-4A07-B819-5648A3C5042E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{D6C4426F-DEE4-4F31-9A10-D84498BBDA14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C715A63-A2D3-43C7-B7F8-BF51EBDDFF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C4426F-DEE4-4F31-9A10-D84498BBDA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C4426F-DEE4-4F31-9A10-D84498BBDA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C4426F-DEE4-4F31-9A10-D84498BBDA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C4426F-DEE4-4F31-9A10-D84498BBDA14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

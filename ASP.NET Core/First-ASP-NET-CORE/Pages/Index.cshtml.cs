@@ -4,9 +4,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 namespace First_ASP_NET_CORE.Pages
 {
     public class IndexModel : PageModel
-    { 
-        
-        //public Credential 
+    {
+
+        //[BindProperty]
+       // public Credential credential { get; set; }
         private readonly ILogger<IndexModel> _logger;
         
 

@@ -278,6 +278,10 @@
       "BusinessLogicLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BusinessLogicLayer.dll": {}
         },
@@ -289,7 +293,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "BusinessLogicLayer": "1.0.0",
+          "Entities": "1.0.0",
           "MySql.Data": "8.0.30"
         },
         "compile": {
@@ -297,6 +301,16 @@
         },
         "runtime": {
           "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -872,12 +886,18 @@
       "type": "project",
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BusinessLogicLayer >= 1.0.0",
-      "DataAccessLayer >= 1.0.0"
+      "DataAccessLayer >= 1.0.0",
+      "Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -912,6 +932,9 @@
             },
             "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\DataAccessLayer\\DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\Entities\\Entities.csproj"
             }
           }
         }

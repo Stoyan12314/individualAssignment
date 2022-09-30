@@ -35,7 +35,7 @@ namespace First_ASP_NET_CORE.Pages
 
                 await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal);
 
-                return RedirectToPage("/Index");
+                return RedirectToPage("/Account");
             }
             return Page();  
         }
@@ -46,10 +46,12 @@ namespace First_ASP_NET_CORE.Pages
 
             }
             [Required]
-            public string? Email { get; set; }
             [Display(Name = "Email address")]
+            public string? Email { get; set; }
+           
 
             [Required]
+            [Display(Name = "Password")]
             [DataType(DataType.Password)]
             public string? Password { get; set; }
             

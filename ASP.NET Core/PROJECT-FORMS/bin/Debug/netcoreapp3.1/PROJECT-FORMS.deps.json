@@ -9,7 +9,8 @@
       "PROJECT-FORMS/1.0.0": {
         "dependencies": {
           "BusinessLogicLayer": "1.0.0",
-          "DataAccessLayer": "1.0.0"
+          "DataAccessLayer": "1.0.0",
+          "Entities": "1.0.0"
         },
         "runtime": {
           "PROJECT-FORMS.dll": {}
@@ -147,17 +148,26 @@
         }
       },
       "BusinessLogicLayer/1.0.0": {
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "Entities": "1.0.0"
+        },
         "runtime": {
           "BusinessLogicLayer.dll": {}
         }
       },
       "DataAccessLayer/1.0.0": {
         "dependencies": {
-          "BusinessLogicLayer": "1.0.0",
+          "Entities": "1.0.0",
           "MySql.Data": "8.0.30"
         },
         "runtime": {
           "DataAccessLayer.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
         }
       }
     }
@@ -307,6 +317,11 @@
       "sha512": ""
     },
     "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

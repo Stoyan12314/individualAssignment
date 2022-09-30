@@ -28,3 +28,9 @@ C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netc
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT-FORMS.dll
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT-FORMS.pdb
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT-FORMS.genruntimeconfig.cache
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Form2.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Login.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Properties.Resources.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Form3.resources

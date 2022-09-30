@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "DataAccessLayer/1.0.0": {
         "dependencies": {
-          "BusinessLogicLayer": "1.0.0",
+          "Entities": "1.0.0",
           "MySql.Data": "8.0.30"
         },
         "runtime": {
@@ -221,9 +221,9 @@
           }
         }
       },
-      "BusinessLogicLayer/1.0.0": {
+      "Entities/1.0.0": {
         "runtime": {
-          "BusinessLogicLayer.dll": {}
+          "Entities.dll": {}
         }
       }
     }
@@ -367,7 +367,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "BusinessLogicLayer/1.0.0": {
+    "Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

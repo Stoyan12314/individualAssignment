@@ -275,14 +275,14 @@
           }
         }
       },
-      "BusinessLogicLayer/1.0.0": {
+      "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/BusinessLogicLayer.dll": {}
+          "bin/placeholder/Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BusinessLogicLayer.dll": {}
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -849,15 +849,15 @@
         "version.txt"
       ]
     },
-    "BusinessLogicLayer/1.0.0": {
+    "Entities/1.0.0": {
       "type": "project",
-      "path": "../BusinessLogicLayer/BusinessLogicLayer.csproj",
-      "msbuildProject": "../BusinessLogicLayer/BusinessLogicLayer.csproj"
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "BusinessLogicLayer >= 1.0.0",
+      "Entities >= 1.0.0",
       "MySql.Data >= 8.0.30"
     ]
   },
@@ -888,8 +888,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\Entities\\Entities.csproj"
             }
           }
         }
