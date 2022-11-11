@@ -6,11 +6,14 @@ namespace DataAccessLayer
 {
     public interface IGameDB
     {
-        public bool AddGame(Game game);
+        public void AddGame(Game game);
         public List<Game> GetAllGames();
 
         public bool Delete(int id);
 
         public Game GetGameWith(int id);
+
+        public void UpdateGame(Game game);
+        public double GetAvgScore(int game_id);
     }
 }

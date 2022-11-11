@@ -60,9 +60,10 @@
 
 
     .grid-container .grid-item {
-        overflow: hidden;
+        overflow:hidden;
     }
 
         .grid-container .grid-item img {
             width: 250px;
+            height: 20rem;
         }

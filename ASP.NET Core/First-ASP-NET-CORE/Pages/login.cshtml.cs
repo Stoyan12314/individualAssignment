@@ -1,61 +1,71 @@
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
-
+using BusinessLogicLayer.InterfacesForUserManager;
+using BusinessLogicLayer;
+using DataAccessLayer;
+using Entities.DTO;
 namespace First_ASP_NET_CORE.Pages
 {
     public class loginModel : PageModel
     {
 
-        [BindProperty]
-        public Credential credential { get; set; }
-        
-        //when i use a class i need to have a empty ctor 
 
-      
+
+        [BindProperty] public RegisterLogin Register { get; set; }
+
+        
+        private readonly IGetUser getUser = new UserManager(new DBUser());
+        private readonly IFindUserId userId = new UserManager(new DBUser());
+   
+
+
+        public loginModel()
+        {
+
+        }
 
         public void OnGet()
         {
-           
-        }
-        public async Task<IActionResult> OnPostAsync()
-        {
-            if (!ModelState.IsValid) return Page();
-
-            if (credential.Email == "admin" && credential.Password == "123")
-            {
-                var claims = new List<Claim> {
-                   new Claim (ClaimTypes.Email, "admin"),
-                   new Claim ("Password","123")
-                };
-                var identity = new ClaimsIdentity(claims, "MyCookieAuth");
-                ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(identity);
-
-                await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal);
-
-                return RedirectToPage("/Account");
-            }
-            return Page();  
-        }
-        public class Credential
-        {
-            public Credential()
-            {
-
-            }
-            [Required]
-            [Display(Name = "Email address")]
-            public string? Email { get; set; }
-           
-
-            [Required]
-            [Display(Name = "Password")]
-            [DataType(DataType.Password)]
-            public string? Password { get; set; }
             
-
         }
+
+
+        public async void Auth(string user)
+        {
+            var authProperties = new AuthenticationProperties
+            {
+                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(28)
+            };
+
+            var claims = new List<Claim>();
+            claims.Add(new Claim("user_id", userId.FindUserId(user)));
+            claims.Add(new Claim(ClaimTypes.Name, user));
+
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+
+            await HttpContext.SignInAsync(new ClaimsPrincipal(claimsIdentity), authProperties);
+        }
+        public ActionResult OnPostAsync()
+        {
+          
+            ILogin login = new UserManager(new DBUser());
+            if (ModelState.IsValid)
+            {
+                if (login.CheckLogin(Register.password, Register.username))
+                {
+                    Auth(Register.username);
+                    return RedirectToPage("/home");
+                }
+            }
+            return Page();
+        }
+
+       
     }
 }

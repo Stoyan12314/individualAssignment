@@ -1,53 +1,113 @@
 ﻿@page
 @model reviewPageModel
 @{
-	ViewData["Title"] = "Review";
+    
+    ViewData["Title"] = "Review";
 }
 <link rel="stylesheet" href="/css/review.css">
 <div class="flex-container1">
         <div class="flex-container-item1">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game image">
-            <p>Name: lorem <br> developer: lorem <br> genre:lorem <br> time to complete: lorem <br> release date: lorem</p>
+
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(@Model.game.image)" alt="game image">
+            <p>Title:@Model.game.title  <br> developer: @Model.game.developer <br> genre:@Model.game.genre <br> time to complete: @Model.game.gameTime hours<br> release date: @Model.game.releaseDate.ToString("yyyy-MM-dd")</p>
         </div>
         <div class="flex-container-item2">
             <div id="rounded">
-
+              <p style="text-align:center; margin-left:-13px;">Average score: @Model.AvgScore(@Model.game.gameId) </p> 
             </div>
-            <p>blahblahTitle <br> Lorem ipsum dolor sit amet consectetur. <br> Lorem ipsum dolor sit amet consectetur. <br> Lorem ipsum dolor sit amet consectetur. <br> Lorem ipsum dolor sit amet consectetur.</p>
+            <p>
+            <br> 
+           <p style="inline-size: 200px; overflow-wrap: break-word;"> Description: <br>@Model.game.description </p>
+            </p>
+            <p/>
+            
         </div>
     </div>
-    <div class="flex-container2">
+@if (User.Identity.IsAuthenticated)
+{
+   <form method="post">
+     
+     <div class="flex-container2">
         <p id="title">Write a review</p>
         <div class="score-container">
             <p>score</p>
             <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
+                 <select asp-for="review.score">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                 </select>
+              @*  <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
                   <a href="#">1</a>
                   <a href="#">2</a>
                   <a href="#">3</a>
                   <a href="#">4</a>
                   <a href="#">5</a>
-                </div>
+                </div>*@
          </div>
     </div>
-
-    <div class="input-container">
-
-        <input id="inputfield" type="text">
-        <input type="button" value="Submit">
-
-    </div>
-
-    </div>
-<div class="flex-container3">
-    <div class="username-score-container">
-        <p>Username</p>
-        <p>Score</p>
-    </div>
     
+
     <div class="input-container">
-        <input id="inputfield" type="text">
-        
+
+        <input asp-for="review.review" id="inputfield" type="text" >
+        <button  style=" margin-left:auto; width: 70px; height: 60px; border-radius:25px; background-color:orange" id="submitBtn" type="Submit" value="Submit" asp-route-game_id=@Model.game.gameId>Submit</button>
+
     </div>
-</div>
+
+    </div>
+   </form>
+}
+
+  @foreach (var review in Model.reviews)
+        {
+         <form method="post">
+                @if (@Model.returnLogedUserId(@Model.game.gameId) == @review.user.Id())
+        {
+             <div class="flex-container3">
+                <div class="username-score-container">
+
+                    <p>username: @review.user.Username()</p>
+                    <p>score: @review.score.ToString()</p>
+                </div>
+    
+                <div class="input-container">
+
+       
+                    <p style="inline-size: 250px; overflow-wrap: break-word;">@review.review</p>
+        
+                </div>
+       
+              </div>
+            <button  style="  margin-left:auto; width: 70px; height: 60px; border-radius:25px; background-color:orange;" id="submitBtn" type="Submit" value="Submit" asp-page-handler="ReviewDelete" asp-route-user_id="@review.user.Id()" asp-route-review="@review.review "  asp-route-game_id="@Model.game.gameId ">Delete</button>
+        }
+        else
+        {
+             <div class="flex-container3">
+                <div class="username-score-container">
+
+                    <p>username: @review.user.Username()</p>
+                    <p>score: @review.score.ToString()</p>
+                </div>
+    
+                <div class="input-container">
+
+       
+                    <p style="inline-size: 250px; overflow-wrap: break-word;">@review.review</p>
+        
+                </div>
+       
+              </div>
+        }
+
+         </form>
+     
+          
+        }        
+
+ 
+    
+

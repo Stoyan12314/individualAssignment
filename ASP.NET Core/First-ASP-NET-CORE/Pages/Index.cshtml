@@ -1,5 +1,5 @@
 ﻿@page
-@model IndexModel
+@model RegisterModel
 @{
     ViewData["Title"] = "Landing page";
 }
@@ -25,12 +25,14 @@
                         <legend>SIGN UP</legend>
     
                         <div class="inputField">
-                            <h4>Email</h4>
-                            <input type="text">
+
+                            <h4>Username</h4>
+                            <input asp-for="Register.username" type="text" placeholder="Enter username">
+                           @* <input type="text">*@
                             <h4>Password</h4>
-                              <input type="text">
-                        
-                       
+                            <input asp-for="Register.password" type="text" placeholder="Enter password">
+                           @* <input type="text">*@
+                                         
                         </div>
                         <input id="Continue" type="submit" value="Continue">
                         <h5 id="Question">Already a user?</h5>

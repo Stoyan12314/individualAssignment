@@ -33,12 +33,11 @@
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.lbUsername = new System.Windows.Forms.Label();
             this.lbPassword = new System.Windows.Forms.Label();
-            this.btnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(117, 222);
+            this.btnLogin.Location = new System.Drawing.Point(112, 203);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(94, 29);
             this.btnLogin.TabIndex = 0;
@@ -79,22 +78,11 @@
             this.lbPassword.TabIndex = 4;
             this.lbPassword.Text = "Password";
             // 
-            // btnRegister
-            // 
-            this.btnRegister.Location = new System.Drawing.Point(117, 257);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(94, 29);
-            this.btnRegister.TabIndex = 5;
-            this.btnRegister.Text = "Register";
-            this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 307);
-            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.lbPassword);
             this.Controls.Add(this.lbUsername);
             this.Controls.Add(this.tbPassword);
@@ -114,6 +102,5 @@
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label lbUsername;
         private System.Windows.Forms.Label lbPassword;
-        private System.Windows.Forms.Button btnRegister;
     }
 }

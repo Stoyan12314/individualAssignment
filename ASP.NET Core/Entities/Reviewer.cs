@@ -3,35 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Entities.Enum;
 namespace Entities
 {
-    public class Reviewer : User, IUserAction
+    public class Reviewer : User
     {
-        private List<Review> writtenReviews;
-        public Reviewer(string name, string email, string username, string password) : base(name, email, username, password)
+        private DateTime creationDate;
+        private AccountType reviewer;
+
+        public Reviewer(int id, string username, string password, DateTime creation_date, int badges, int number_written_reviews, AccountType accType) : base(id , username, password, creation_date, badges, number_written_reviews, accType)
         {
-            writtenReviews = new List<Review>();
+            
+        }
+         //int id, string username, string password, DateTime creation_date, int badges, int number_written_reviews
+        public Reviewer(int id, string username, string password, DateTime creation_date, int badges, int number_written_reviews) : base(id, username, password, creation_date, badges, number_written_reviews)
+        {
+          
         }
 
-        public void DeleteReview(Review review)
+        public Reviewer(string username, string password) : base(username, password)
         {
-            throw new NotImplementedException();
+            
         }
 
-        public override string ToString()
+        public Reviewer(int id, string username) : base(id,username)
         {
-            throw new NotImplementedException();
+            
         }
 
-        public void UpdateReview(Review review)
+        public Reviewer(string username, string password, DateTime creationDate, AccountType reviewer) : base(username, password)
         {
-            throw new NotImplementedException();
-        }
-
-        public void WriteReview(Review review)
-        {
-            throw new NotImplementedException();
+            this.creationDate = creationDate;
+            this.reviewer = reviewer;
         }
     }
 }

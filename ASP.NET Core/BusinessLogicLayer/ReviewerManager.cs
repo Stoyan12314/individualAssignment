@@ -5,47 +5,53 @@ using System.Text;
 using System.Threading.Tasks;
 using Entities;
 using DataAccessLayer;
+using BusinessLogicLayer.interfacesForReviewManager;
 namespace BusinessLogicLayer
 {
-    public class ReviewerManager : IReviewDB
+    public class ReviewerManager : ICreateReview, IUpdateReview, IDeleteReview, IGetAllUserReviews, IGetAllReviewsWithGame
     {
-        DBreviews dbReviews;
-        public ReviewerManager()
+        private IReviewDB reviewDB;
+        
+        public ReviewerManager(IReviewDB reviewDB)
         {
-            dbReviews = new DBreviews();
+            this.reviewDB = reviewDB;
+            //dbReviews = new DBreviews();
         }
-        public bool CreateReview(Review review, User user, Game game)
+        public bool CreateReview(Review review)
         {
-            throw new NotImplementedException();
+            bool output = reviewDB.CreateReview(review);
+            if (output == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-
-      
-
-        public bool UpdateReview(Review review, User user, Game game)
+        public bool UpdateReview(string review, User user)
         {
-            throw new NotImplementedException();
-
+            return reviewDB.UpdateReview(review, user);
         }
-
-        public bool DeleteReview(Review review, User user, Game game)
+        public List<Review> GetAllReviewsWithGame(Game game)
         {
-            throw new NotImplementedException();
-
+            return reviewDB.GetAllUserReviewsGame(game);
         }
-        public List<Review> GetReviews(Game game)
-        {
-            throw new NotImplementedException();
-
-        }
-
-        public List<Review> GetReviews(User user)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Review> GetAllUserReviews(User user)
         {
-            throw new NotImplementedException();
+            List<Review> reviews = reviewDB.GetAllUserReviews(user);
+            return reviews;
+        }
+        public bool DeleteReview(string review, int user_id)
+        {
+            if (reviewDB.DeleteReview(review, user_id))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

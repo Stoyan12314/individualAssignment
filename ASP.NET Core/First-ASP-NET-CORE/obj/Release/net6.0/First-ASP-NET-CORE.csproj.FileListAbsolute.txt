@@ -76,3 +76,4 @@ C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Relea
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\obj\Release\net6.0\First-ASP-NET-CORE.csproj.CopyComplete
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\Entities.dll
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\Entities.pdb
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\First-ASP-NET-CORE\bin\Release\net6.0\Newtonsoft.Json.dll

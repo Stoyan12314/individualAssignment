@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Entities.Enum;
 namespace Entities
 {
-    public class Admin: User, IUserAction
+    public class Admin: User
     {
-        public Admin(string name, string email, string username, string password) : base( name,  email,  username, password)
+                                                                                                                                                          //User(int id, string username, string password, DateTime creation_date, int badges, int number_written_reviews, AccountType accType)
+        public Admin(int id, string username, string password, DateTime creation_date, int badges, int number_written_reviews, AccountType accType) : base(id, username, password, creation_date, badges, number_written_reviews, accType)
         {
 
         }
@@ -17,29 +18,9 @@ namespace Entities
               
 
 
-        public void DeleteReviewer(Reviewer r)
-        {
-            
-        }
+      
+      
 
-        public override string ToString()
-        {
-            throw new NotImplementedException();
-        }
-
-        void IUserAction.DeleteReview(Review review)
-        {
-            throw new NotImplementedException();
-        }
-
-        void IUserAction.UpdateReview(Review review)
-        {
-            throw new NotImplementedException();
-        }
-
-        void IUserAction.WriteReview(Review review)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

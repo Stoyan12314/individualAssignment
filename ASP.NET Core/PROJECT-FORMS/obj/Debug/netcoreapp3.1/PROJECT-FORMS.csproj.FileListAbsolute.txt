@@ -30,7 +30,15 @@ C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netc
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT-FORMS.genruntimeconfig.cache
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Entities.dll
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Form2.resources
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Login.resources
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Properties.Resources.resources
 C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Form3.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Games.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.EditReviews.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.EditUsers.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.EntryPoint.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.ReviewEdit.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\obj\Debug\netcoreapp3.1\PROJECT_FORMS.Users.resources
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Stoyan\Desktop\individual ass\ASP.NET Core\PROJECT-FORMS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -12,23 +12,19 @@
                         <legend>LOGIN</legend>
         
                             <div class="inputField">
-                             
-                                <label asp-for="credential.Email">Email</label>
-                                <input asp-for="credential.Email">
+                                <label asp-for="Register.username">Username</label>
+                                <input asp-for="Register.username">
 
-                                <span class="text-danger" asp-validation-for="credential.Email"></span>
+                                <span class="text-danger" asp-validation-for="Register.username"></span>
 
 
-                                <label asp-for="credential.Password">Password</label>
-                                <input asp-for="credential.Password">
+                                <label asp-for="Register.password">Password</label>
+                                <input asp-for="Register.password">
 
-                                <span class="text-danger" asp-validation-for="credential.Password"></span>
-
-                             
+                                <span class="text-danger" asp-validation-for="Register.password"></span>
                             </div>
-
-                            
-                             <input id="Continue" type="submit" value="Continue">
+                              <button id="Continue" type="submit" value="Submit" >Continue</button>
+                         
                              <label id="Question">Don't have an account?</label>
                              <input  asp-page="/Index" id="SignUpp" type="submit" value="SignUp">  
                         </fieldset>

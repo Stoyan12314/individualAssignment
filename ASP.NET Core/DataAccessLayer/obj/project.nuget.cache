@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DD3cEbsHms7CWF+kd4G282a7II6FHMzG58SR/wyk33TbLRpZPMB3PWXGQTui1glm5MXZrLWOB/Y9KhWt7cHrUQ==",
+  "dgSpecHash": "i7YkWLe0tdE6OX9yDBYgdHUThlsxL/waECoor3DWBIzfXhmxRpZw3BLHaZYDIwzPQSCtos5KLLnSFkuGddjBCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stoyan\\Desktop\\individual ass\\ASP.NET Core\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\mysql.data\\8.0.30\\mysql.data.8.0.30.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",

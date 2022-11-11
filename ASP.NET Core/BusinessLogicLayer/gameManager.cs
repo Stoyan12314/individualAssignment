@@ -3,22 +3,27 @@ using System.Collections.Generic;
 using System.Text;
 using DataAccessLayer;
 using Entities;
+using BusinessLogicLayer.InterfacesForGameManager;
 namespace BusinessLogicLayer
 {
-    public class gameManager
+    public class gameManager : IAddGame, IDeleteGame, IUpdateGame, IGetAllGames, IGetGameWith, IGetAvgScore
     {
-        private DBgame gameDB;
+        private IGameDB gameDB;
+        private DBChecks checks;
         
-        public gameManager()
+        public gameManager(IGameDB gameDB)
         {
-            gameDB = new DBgame();
+            this.gameDB = gameDB;
+            checks = new DBChecks();
         }
 
         public bool AddGame(Game game)
         {
-           bool check = gameDB.AddGame(game);
+
+           bool check = checks.CheckForRepeatingGames(game);
             if (check)
             {
+               gameDB.AddGame(game);
                return true;
             }
             return false;
@@ -39,9 +44,17 @@ namespace BusinessLogicLayer
                 return false;
             }
         }
+        public double GetAvgScore(int game_id)
+        {
+            return gameDB.GetAvgScore(game_id);
+        }
         public Game GetGameWith(int id)
         {
             return gameDB.GetGameWith(id);   
+        }
+        public void UpdateGame(Game game)
+        {
+            gameDB.UpdateGame(game);
         }
     }
 }

@@ -92,7 +92,14 @@ body .flex-container2 {
     margin: auto;
 }
 
+
+
+
+
 body .flex-container3 {
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -114,10 +121,12 @@ body .flex-container2 .score-container {
 }
 
 body .input-container {
+   
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+   
     gap: 30px;
 }
 
@@ -127,8 +136,10 @@ body .input-container {
         width: 700px;
     }
 
-    body .input-container input[type=button] {
-        width: 90px;
+    body .input-container #submitBtn {
+      margin-left:auto;
+        width: 70px;
+        height: 60px;
     }
 
 /* Drop down menu */

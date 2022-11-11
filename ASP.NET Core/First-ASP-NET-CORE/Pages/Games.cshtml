@@ -1,102 +1,15 @@
 ﻿@page
-
+@using Newtonsoft.Json
 @model GamesModel
 @{
 	 ViewData["Title"] = "Games";
 }
 <link rel="stylesheet" href="/css/Games.css">
  <div class="grid-container">
-        @foreach (var game in Model.Dbgame.GetAllGames())
+        @foreach (var game in Model.IGetAllGames.GetAllGames())
         {
             <div class="grid-item">
-                
-                <a asp-page="/reviewPage" > <img src="data:image/jpeg;base64,@Convert.ToBase64String(@game.image)" alt="game photo"></a>
-
+                <a asp-page="/reviewPage" asp-route-id="@game.gameId"> <img src="data:image/jpeg;base64,@Convert.ToBase64String(@game.image)" alt="game photo" style= "height: 20rem;"></a>
             </div>
-        }
-        @*
-       <div class="grid-item">
-
-            <a asp-page="/reviewPage"> <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo"></a>
-
-        </div>
-        <div class="grid-item">
-
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-
-        </div>
-        <div class="grid-item">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/1200px-Nfstrmustang.jpeg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>
-        <div class="grid-item">
-            <img src="images/Dishonored_box_art_Bethesda.jpg" alt="game photo">
-        </div>*@
-        
-        
-    </div>
+        }        
+</div>
